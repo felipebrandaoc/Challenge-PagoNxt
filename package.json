@@ -1,0 +1,14 @@
+{
+  "devDependencies": {
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.1.5",
+    "@shelex/cypress-allure-plugin": "^2.34.0",
+    "cypress": "^11.2.0",
+    "esbuild": "^0.15.15"
+  },
+  "dependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^14.0.0"
+  },
+  "scripts": {
+    "cypress:run-allure": "cypress run --env allure=true"
+  }
+}
