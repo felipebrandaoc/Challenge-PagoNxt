@@ -1,3 +1,11 @@
+# Script made by Felipe Brandão Costa
+# Brazil, 27/11/2022
+# Code Challenge - Cypress API Testing
+# https://jsonplaceholder.typicode.com/guide/
+
+# This feature tests an API for resource updating. (en-US)
+# Essa feature  testa umaa API de atualização de recurso. (pt-BR)
+
 Feature: Put Resourse Req
     Scenario: Update Resource Success
         Given I have the PUT resource request with "valid body" and id 12

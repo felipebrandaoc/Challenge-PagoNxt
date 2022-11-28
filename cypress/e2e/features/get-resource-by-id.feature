@@ -1,3 +1,11 @@
+# Script made by Felipe Brandão Costa
+# Brazil, 27/11/2022
+# Code Challenge - Cypress API Testing
+# https://jsonplaceholder.typicode.com/guide/
+
+# This feature tests an API for resource listing by id. (en-US)
+# Essa feature  testa umaa API de listagem de recurso por id. (pt-BR)
+
 Feature: Get Resourse Req
     Scenario: Get Resource Success
         Given I have the GET resource request with id 1

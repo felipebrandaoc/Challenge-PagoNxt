@@ -15,13 +15,6 @@ When('I send the PATCH request', () => {
   })
 });
 
-// Then('I check the PATCH response status code {int}', statusCode => {
-//   expect(Cypress.config('resp').status).to.equal(statusCode)
-// });
-
 Then('I check the PATCH response body', () => {
-  // expect(Cypress.config('resp').body.id).to.equal(Cypress.config('body').id)
   expect(Cypress.config('resp').body.title).to.equal(Cypress.config('body').title)
-  // expect(Cypress.config('resp').body.body).to.equal(Cypress.config('body').body)
-  // expect(parseInt(Cypress.config('resp').body.userId)).to.equal(Cypress.config('body').userId)
 });

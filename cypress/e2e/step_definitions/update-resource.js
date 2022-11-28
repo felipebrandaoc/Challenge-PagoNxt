@@ -15,10 +15,6 @@ When('I send the PUT request', () => {
   })
 });
 
-// Then('I check the PUT response status code {int}', statusCode => {
-//   expect(Cypress.config('resp').status).to.equal(statusCode)
-// });
-
 Then('I check the PUT response body', () => {
   expect(Cypress.config('resp').body.id).to.equal(Cypress.config('body').id)
   expect(Cypress.config('resp').body.title).to.equal(Cypress.config('body').title)

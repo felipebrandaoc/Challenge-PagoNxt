@@ -1,3 +1,11 @@
+# Script made by Felipe Brandão Costa
+# Brazil, 27/11/2022
+# Code Challenge - Cypress API Testing
+# https://jsonplaceholder.typicode.com/guide/
+
+# This feature tests an API for resource patching. (en-US)
+# Essa feature  testa umaa API de alteração de recurso. (pt-BR)
+
 Feature: Patch Resourse Req
     Scenario: Patch Resource Success
         Given I have the PATCH resource request with "valid body" and id 12

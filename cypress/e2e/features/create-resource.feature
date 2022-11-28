@@ -1,3 +1,11 @@
+# Script made by Felipe Brandão Costa
+# Brazil, 27/11/2022
+# Code Challenge - Cypress API Testing
+# https://jsonplaceholder.typicode.com/guide/
+
+# This feature tests an API for resource creation. (en-US)
+# Essa feature  testa umaa API de criação de recurso. (pt-BR)
+
 Feature: Post Resourse Req
     Scenario: Create Resource Success
         Given I have the POST resource request with "valid body"

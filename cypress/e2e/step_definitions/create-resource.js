@@ -14,10 +14,6 @@ When('I send the POST request', () => {
   })
 });
 
-// Then('I check the POST response status code {int}', statusCode => {
-//   expect(Cypress.config('resp').status).to.equal(statusCode)
-// });
-
 Then('I check the POST response body', () => {
   expect(Cypress.config('resp').body.title).to.equal(Cypress.config('body').title)
   expect(Cypress.config('resp').body.body).to.equal(Cypress.config('body').body)

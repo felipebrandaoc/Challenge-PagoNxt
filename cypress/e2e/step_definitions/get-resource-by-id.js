@@ -10,10 +10,6 @@ When('I send the GET request', () => {
   })
 });
 
-// Then('I check the GET response status code {int}', statusCode => {
-//   expect(Cypress.config('resp').status).to.equal(statusCode)
-// });
-
 Then('I check the response body id {int}', postId => {
   expect(Cypress.config('resp').body.id).to.equal(postId)  
 });
