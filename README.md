@@ -64,3 +64,5 @@ Scenario: Create Invalid Resource
 The last example contains the expected behaviour when we have a invalid body. But when we call the create resource service with a invalid body, we have a status code 201 instead.
 
 The same thing happens with some other services, like PATCH and DELETE. This way, would be a huge thing to include scenarios where we don't have always success to improve our application's quality and also our confidence on what we are developing.
+
+That being said, a good improvement on our API and our test scenarios would be to include behaviours that is not always related with success scenarios. For example, when we try to create a resource with a invalid body or any other invalid parameter, the API could treat it and return properly a status code for the situation, this way we can increase our coverage and avoid a lot of issues in the future. 
