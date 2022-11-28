@@ -38,7 +38,7 @@ application's behaviour and examine/fix bugs.
 **- Videos:** this folder contains some short videos taken after each test scenario's run. This can help to evidence <br />
 application's behaviour and examine/fix bugs alongside with Screenshots.
 
-# Improvements to be Done
+## Improvements to be Done
 
 The API we are working with contains the basic set of functionalities that a service should contain. In the downside, there are many scenarios that we could improve by adding some behaviours in each one of the services.
 
